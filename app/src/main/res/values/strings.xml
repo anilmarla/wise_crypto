@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Wise Crypto</string>
+    <string name="title_activity_register_privacy">RegisterPrivacyActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="app_description">Trusted by millions of users worldwide</string>
+    <string name="welocome_label">Welcome</string>
+    <string name="email">Email</string>
+    <string name="Password">Password</string>
+    <string name="email_enter">Enter Email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="full_name3">Full Name</string>
+    <string name="full_name">Full name</string>
+    <string name="name_enter">"Enter name "</string>
+    <string name="mobile">Mobile number</string>
+    <string name="enter_mobile">Enter Mobile number</string>
+    <string name="signup_label">Sign up now</string>
+    <string name="enter_confirmpassword">Enter confirm password</string>
+    <string name="terms_conditions">I agree to the terms and conditions. Privacy policy and content policy</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="confirm_password">Confirm password</string>
+</resources>
