@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/etherium"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/corner_radius"
+    app:layout_constraintTop_toBottomOf="@id/bitcoin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/default_gap_padding"
+    android:padding="@dimen/fab_margin">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin">
+
+
+        <ImageView
+            android:id="@+id/imag_eth"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <View
+            android:id="@+id/divider_trensperan"
+            app:dividerColor="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="@id/imag_eth"
+            app:layout_constraintTop_toTopOf="@id/imag_eth"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <TextView
+            android:id="@+id/txt_eth"
+            app:layout_constraintBottom_toBottomOf="@id/divider_trensperan"
+            app:layout_constraintStart_toEndOf="@id/imag_eth"
+            app:layout_constraintTop_toTopOf="@id/imag_eth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:text="ETH"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_etherium"
+            app:layout_constraintStart_toStartOf="@id/txt_eth"
+            app:layout_constraintTop_toBottomOf="@id/txt_eth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Etherium"
+            android:textSize="10dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/day_profit_percen1"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            app:cornerRadius="8dp"
+            app:icon="@drawable/arrow_up_right__1_"
+            app:iconTint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/card_padding"
+            android:backgroundTint="@color/light_red"
+            android:text="-2.1%"
+            android:textColor="@color/white"
+            android:textSize="@dimen/proficpic_name"
+            android:textStyle="bold" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/divider1"
+            app:dividerThickness="1dp"
+            app:layout_constraintTop_toBottomOf="@id/imag_eth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="@dimen/fab_margin" />
+
+
+        <TextView
+            android:id="@+id/txt_portfolio1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Portfolio"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/present_value1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_portfolio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$37.30"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/day_profit1"
+            app:layout_constraintBottom_toBottomOf="@id/present_value1"
+            app:layout_constraintEnd_toEndOf="@id/day_profit_percen1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:text="0.009BTC"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

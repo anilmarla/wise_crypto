@@ -25,4 +25,15 @@
     <string name="terms_conditions">I agree to the terms and conditions. Privacy policy and content policy</string>
     <string name="already_have_account">Already have an account?</string>
     <string name="confirm_password">Confirm password</string>
+    <string name="sign_up_now">Sign up now</string>
+    <string name="login">Login</string>
+    <string name="dont_have_account">Don\'t have an account yet?</string>
+    <string name="register_here">Register here</string>
+    <string name="enter">Enter</string>
+    <string name="register_as">Register As</string>
+    <string name="login_error">Login credentials are wrong! Please try again.</string>
+    <string name="Hello">Hello</string>
+    <string name="profile_name">Nadila Aulia</string>
+    <string name="preferences_name">wise_crypto_prefs</string>
+    <string name="name">Name</string>
 </resources>

@@ -1,4 +1,24 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
-    <dimen name="default_padding">16dp</dimen>
+    <dimen name="default_padding">15dp</dimen>
+    <dimen name="default_gap_padding">16dp</dimen>
+    <dimen name="loo_top">48dp</dimen>
+    <dimen name="logo_width">182.52dp</dimen>
+    <dimen name="logo_height">64dp</dimen>
+    <dimen name="welcome_top_padding">72dp</dimen>
+    <dimen name="padding_topemail">48dp</dimen>
+    <dimen name="default_padding_double">32dp</dimen>
+    <dimen name="margin_top">24dp</dimen>
+    <dimen name="login_logo_margin_top">34dp</dimen>
+    <dimen name="margin_start">10dp</dimen>
+    <dimen name="textsize_large">32sp</dimen>
+    <dimen name="textsize_medium">14sp</dimen>
+    <dimen name="margin_start_signup">23dp</dimen>
+    <dimen name="homepic_width">40dp</dimen>
+    <dimen name="textsize_small">12sp</dimen>
+    <dimen name="profile_name_text">20sp</dimen>
+    <dimen name="icon_width">24dp</dimen>
+    <dimen name="proficpic_name">12dp</dimen>
+    <dimen name="card_padding">26dp</dimen>
+    <dimen name="corner_radius">10dp</dimen>
 </resources>
